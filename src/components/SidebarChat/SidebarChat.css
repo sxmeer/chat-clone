@@ -1,0 +1,104 @@
+.sidebarChat {
+  display: flex;
+  padding: 15px 10px;
+  cursor: pointer;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat__infoMessage {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidebarChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChat__info {
+  margin-left: 10px;
+  align-self: center;
+  flex: 1;
+}
+
+.sidebarChat__infoRowOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.sidebarChat__infoRowOneName {
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.sidebarChat__infoRowOneDate {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.sidebarChat__infoRowTwoMessage {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.sidebarChat__passwordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.sidebarChat__passwordContainer > * {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sidebarChat__passwordContainer > h2 {
+  text-align: start;
+}
+
+.sidebarChat__password {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.sidebarChat__passwordError {
+  height: 20px;
+  color: red;
+}
+
+.sidebarChat__passwordContainer input {
+  width: 95%;
+  border: none;
+  outline: none;
+}
+
+.sidebarChat__passwordContainerBtnDiv {
+  width: 30%;
+  align-self: flex-end;
+}
+
+.sidebarChat__passwordContainerBtn {
+  padding: 10px 0 10px 0;
+  color: white !important;
+  width: 100%;
+  background-color: #0a8d48 !important;
+  border: none;
+  cursor: pointer;
+}

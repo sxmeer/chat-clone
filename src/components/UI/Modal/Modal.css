@@ -1,0 +1,23 @@
+.modal {
+  position: fixed;
+  z-index: 500;
+  background-color: #ffffff;
+  left: 0%;
+  right: 0%;
+  width: 40%;
+  top: 15%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  color: #4a4a4a;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1020px) {
+  .modal {
+    width: 80%;
+  }
+}

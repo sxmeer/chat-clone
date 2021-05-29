@@ -1,0 +1,34 @@
+.confirmMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.confirmMessage > * {
+  margin-top: 20px;
+}
+
+.confirmMessage__btnDiv {
+  width: 90%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.confirmMessage__posBtn {
+  padding: 10px 0 10px 0;
+  color: white !important;
+  flex: 1;
+  background-color: #0a8d48 !important;
+  border: none;
+  cursor: pointer;
+}
+
+.confirmMessage__negBtn {
+  background-color: white;
+  padding: 10px 0 10px 0;
+  border: none;
+  flex: 1;
+  cursor: pointer;
+}

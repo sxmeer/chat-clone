@@ -1,0 +1,7 @@
+.chatPlaceHolder {
+  flex: 0.7;
+  display: grid;
+  font-size: large;
+  font-weight: 600;
+  place-items: center;
+}
